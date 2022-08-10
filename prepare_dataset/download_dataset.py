@@ -22,7 +22,7 @@ if __name__ == '__main__':
     make_folder(test_video_dir)
     make_folder(test_annotation_dir)
 
-    common_url = 'https://lab.osai.ai/datasets/openttgames/data/'
+    common_url = 'http://lab.osai.ai/datasets/openttgames/data/'
 
     train_video_filenames = ['game_{}.mp4'.format(i) for i in range(1, 6)]  # 1 to 5
     train_annotation_filenames = ['game_{}.zip'.format(i) for i in range(1, 6)]  # 1 to 5
